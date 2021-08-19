@@ -1,0 +1,32 @@
+{
+  "name": "highlight-select-text",
+  "version": "1.0.0",
+  "description": "Highlight, add notes against that text and get the selected text index, and use the indexes to higlight again when page will reload, no need to change original html and get two highlight text features a simple 'text highlight' and 'highlight with notes attached and position of that note'. This pakage will also provide position of selected text to create dynamic component in front of that highligh dynamically for you. Set your own custom style for two highlights and buttons.",
+  "main": "src/index.ts",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeshan9/highlight-select-text.git"
+  },
+  "keywords": [
+    "highlight-text",
+    "highlight-word",
+    "index hihglighter"
+  ],
+  "author": "zeeshanmushtaq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeeshan9/highlight-select-text/issues"
+  },
+  "homepage": "https://github.com/zeeshan9/highlight-select-text#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
